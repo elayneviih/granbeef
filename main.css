@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+}
+body::-webkit-scrollbar{
+  width: 9px;
+}
+body::-webkit-scrollbar-track{
+  background: rgba(0,0,0,0.1);
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid gray;
+}
+
+topo .logo-site{
+    background-image: url:("imagens/logo.png");
+    background-repeat: no-repeat;
+    width:600px ;
+    height:100px;
+    text-indent: -100000px;
+    
+}
+header topo{
+    background-color:darkred; 
+    height:20vh;
+    border-radius:20px 20px 0 0;
+    padding:1rem;
+}
+header{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+	position: fixed;
+	top:0;
+    z-index: 1;
+}
+header div img{
+    height: 10vh;
+}
+#menu{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+#menu li{
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #1C1C1C;
+    vertical-align: middle;
+    font-family:'Poppins', sans-serif;
+}
+#menu li a{
+    text-decoration: none;
+    display: flex;
+    color: #1C1C1C;
+    align-items: center;
+    font-family:'Poppins', sans-serif;
+}
+ banner > img{
+     width:200;
+     height:3vh ;
+}
+#banner{
+    display: grid;
+    grid-template-rows:50% 20% 20%;
+    grid-template-columns:20% 20%; 
+    align-items: center;
+    height:550px ;
+    margin-top:2rem ;
+    padding:auto;
+}
+#historia{
+    background-color: white;
+    text-align: center;
+    font-family:roboto, sans-serif;
+    font-size: 1.8rem;
+}
+ p{
+    font-family:'Poppins', sans-serif;
+    font-size: 1rem;
+}
+#comosurgiu{
+    background-color: white;
+    height:65vh ;
+    border-bottom: 1px solid gray ;
+    padding:1rem;
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    font-size: 1.2rem;
+    display: flex;
+}
+.quadrado{
+    border: 2px black solid;
+    margin: 10px;
+    border-radius: 1rem;
+    height: 250px;
+    padding: 30px;
+    box-shadow: 0 0 20px black;
+}
+.quadrado p{
+    
+}
+#comosurgiu > p{
+    font-size:1.8rem ;
+    color:black;
+    margin:1rem 0 ;
+}
+.container-itens .itens{
+    width:30%;
+    background-color:dimgray;
+    border: 3px solid gray;
+    border-radius:1rem ;
+    padding: 1rem;
+    box-shadow: 0px 4px 4px gray;
+    font-family:roboto, sans-serif;
+}
+
+.item h3{
+    color:maroon;
+    font-size:2.2rem ;
+    font-family:roboto, sans-serif;
+    margin-bottom:1rem; 
+}
+.item p{
+    font-size: 1.5;
+    color:black;
+    font-family:roboto, sans-serif;
+}
+footer{
+    background-color: dimgray;
+    height:100px; 
+}
+
+
+
+
+
+
