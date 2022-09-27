@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: ;
+	background-color: #1C1C1C;
+}
+body::-webkit-scrollbar{
+  width: 9px;
+}
+body::-webkit-scrollbar-track{
+  background: rgba(0,0,0,0.1);
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: black;
+  border-radius: 20px;
+  border: 2px solid gray;
+}
+
+topo .logo-site{
+    background-image: url:("../../imagens/logoo.png");
+    background-repeat: no-repeat;
+    width:600px ;
+    height:100px;
+    text-indent: -100000px;
+    
+}
+header topo{
+    background-color:darkred; 
+    height:20vh;
+    border-radius:20px 20px 0 0;
+    padding:1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+	position: fixed;
+	top:0;
+    z-index: 1;
+}
+header div img{
+    height: 10vh;
+}
+#menu{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+#menu li{
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #363636;
+    vertical-align: middle;
+}
+#menu li a{
+    text-decoration: none;
+    display: flex;
+     color: #363636;
+    align-items: center;
+}
+
+main{
+    
+    height: 100%;
+	margin-top:8vh;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contato{
+    width: 55vh;
+    height: 80vh;
+    padding: 2%;
+    background-color: #2E2E2E;
+    border: 3px solid rgb(14, 13, 13);
+    border-radius: 2%;
+    box-shadow: 0 0 20px black;
+}
+#contato h1{
+    color: black;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 0px 0px 30px black;
+}
+#primeiro{
+    width: 100%;
+    height: 50%;
+}
+#segundo{
+    width: 100%;
+    height: 50%;
+}
+.cordefundo{
+    background-color: #696969;
+}
+#contato fieldset{
+    border: none;
+}
+.spaco{
+    margin-bottom: 0.5rem;
+}
+
+footer{
+    background-color: #2E2E2E;
+    height:100px;
+}

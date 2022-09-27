@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Contato</title>
+        <meta charset="utf-8">
+        <link href="contato.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <header id="topo">
+            <div id="logo">
+                <img src="../imagens/logoo.png">
+            </div>
+            <h1 class="logo-site"></h1>
+            <nav id="menu">
+                <ul> 
+                    <li><a href="../index.html" title="Página inicial">Ínicio</a></li>
+                    <li><a href="loja.html" title="Compras">Compras</a></li>
+                    <li><a href=""><img src="../imagens/carro.png" height="25px"><b></b></a></li>
+                    <li><a href="contatos.html" title="Entre em contato">Contato</a></li>
+            
+                </ul>
+        
+            </nav>
+        </header>
+        <main><!--CONTEÚDO DA PÁGINA-->
+            <form id="contato" action="arquivo.php" method="post">
+                <h1>Contato</h1>
+                <div id="primeiro">
+                    <div class="spaco">
+                        <label>Nome:
+                            <input class="cordefundo" type="text" name="nome" placeholder="Digite seu nome aqui">
+                        </label>
+                    </div>
+                    <div class="spaco">
+                        <label>E-mail:
+                            <input class="cordefundo" type="email" name="email" placeholder="Digite seu e-mail aqui">
+                        </label>
+                    </div>
+                    <div class="spaco">
+                        <label>Data:
+                            <input class="cordefundo" type="date" name="data">
+                        </label>
+                    </div>
+                    <div class="spaco">
+                        <label>Idade:
+                            <input class="cordefundo" type="number" name="idade" min="1" max="122" step="1">
+                        </label>
+                    </div>
+                    <div class="spaco">
+                        <label>Telefone:
+                            <input class="cordefundo" type="number" name="telefone">
+                        </label>
+                    </div>
+                    <div class="spaco">
+                        <fieldset>Sexo:
+                            <input type="radio" name="opcao" value="Masculino" id="sexoM" checked>
+                            <label for="SexoM">Masculino</label>
+                            <input type="radio" name="opcao" value="Feminino" id="SexoF">
+                            <label for="sexoF">Feminino</label>
+                            <input type="radio" name="opcao" value="Naobinario" id="SexoNB">
+                            <label for="sexoNB">Não binário</label>
+                        </fieldset>
+                    </div>
+                    <div class="spaco">
+                        <label>Cidade:
+                            <select class="cordefundo" name="cidade">
+                                <option value="">Informe sua Cidade</option>
+                                <option value="Brumado">Brumado</option>
+                                <option value="Vitora da Conquista">Livramento</option>
+                                <option value="Salvador">Dom Basilio</option>
+                                <option value="Porto Seguro">Rio de Contas</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="spaco">
+                        <label for="textoareas">Comentário</label><br>
+                        <textarea class="cordefundo" id="textoareas" name="comentario" placeholder="Escreva seu comentário aqui:"></textarea>
+                    </div>
+                </div>
+            </form>
+        </main>
+
+        <footer>
+        </footer>
+    </body>
+</html>

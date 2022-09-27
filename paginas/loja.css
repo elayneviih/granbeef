@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body::-webkit-scrollbar{
+  width: 9px;
+}
+body::-webkit-scrollbar-track{
+  background: rgba(0,0,0,0.1);
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid gray;
+}
+
+header{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+	position: fixed;
+	top:0;
+    z-index: 1;
+}
+#menu{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+#menu li{
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #1C1C1C;
+    vertical-align: middle;
+    font-family:'Poppins', sans-serif;
+}
+#menu li a{
+    text-decoration: none;
+    display: flex;
+    color: #1C1C1C;
+    align-items: center;
+    font-family:'Poppins', sans-serif;
+}
+header div img{
+    height: 60px;
+}
+
+main{
+    background-color:white;
+    height: 100%;
+}
+#promocoes{
+    display: flex;
+    justify-content:center; 
+}
+footer{
+    background-color: dimgray;
+    height: 50vh;
+}
+#promocoes h1{
+    text-align: center;
+}
+#promocao{
+    display: flex;
+    justify-content: center;
+}
+#promocao img{
+    margin: 0px 20px;
+}
+.maisvendidos{
+    display: flex;
+    justify-content: center;
+}
+.vende1{
+    margin: 0px 20px;
+}
+#Maisvendidos h1{
+    text-align: center;
+}
+#cortes{
+    display:flex;
+    justify-content: center;
+}
+.cortes1{
+    margin: 0px 20px;
+}
+h5{
+    color:maroon;
+    text-align: center;
+}
+h4{
+    text-align:center ;
+}
+h1{
+    text-align:center ;
+    text-decoration: underline 2px maroon ;
+}
